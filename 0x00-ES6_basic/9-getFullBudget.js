@@ -1,7 +1,7 @@
 import getBudgetObject from './7-getBudgetObject.js';
 /**
  * @param {number} income - income.
- * @param {float} gdp - gdp.
+ * @param {number} gdp - gdp.
  * @param {number} capita - capita.
  * @return {object} object repping the full budget details.
  */
