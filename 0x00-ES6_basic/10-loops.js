@@ -6,12 +6,11 @@
  *                              in the original array.
  */
 export default function appendToEachArrayValue(array, appendString) {
+  const ar = [];
   for (const idx of array) {
-    let i = 0;
     const value = idx;
-    array[i] = appendString + value;
-    i++;
+    ar.push(appendString + value);
   }
 
-  return array;
+  return ar;
 }
